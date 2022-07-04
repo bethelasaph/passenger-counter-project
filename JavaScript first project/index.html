@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PASSENGER COUNTER</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="CSS/avatar.png" alt="avatar" class="avatar" />
+
+      <h1 class="text" id="text">People Entered:</h1>
+
+      <div class="controls">
+          <button onclick="decrement()">
+            <img src="./CSS/minus.png" alt="decrement icon" id="minus" />
+          </button>
+          <span id="count-el">0</span>
+          <button onclick="increment()">
+            <img src="./CSS/plus.png" alt="increment icon" id="plus" />
+          </button>
+      </div>
+    </div>
+
+    <script src="JS/script.js"></script>
+  </body>
+</html>
